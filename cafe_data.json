@@ -1,0 +1,20 @@
+{
+  "menu": {
+    "1": { "name": "Coffee", "price": 50 },
+    "2": { "name": "Tea", "price": 30 },
+    "3": { "name": "Sandwich", "price": 100 },
+    "4": { "name": "Cake", "price": 80 },
+    "5": { "name": "Burger", "price": 120 },
+    "6": { "name": "Cold Coffee", "price": 90 },
+    "7": { "name": "Espresso", "price": 70 },
+    "8": { "name": "Latte", "price": 110 },
+    "9": { "name": "Cappuccino", "price": 120 },
+    "10": { "name": "Chocolate Milkshake", "price": 130 },
+    "11": { "name": "French Fries", "price": 90 },
+    "12": { "name": "Garlic Bread", "price": 85 },
+    "13": { "name": "Veg Puff", "price": 40 },
+    "14": { "name": "Chicken Puff", "price": 60 },
+    "15": { "name": "Ice Cream", "price": 70 },
+    "16": { "name": "Mojito", "price": 140 }
+  }
+}
