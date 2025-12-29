@@ -26,20 +26,19 @@ Place orders, generate bills, save them, and visualize sales — all from the te
 
 ## 📦 Install Dependencies
 
-```bash
 pip install prettytable matplotlib
 
 ▶️ Run the Program
 python cafe_management.py
 
 🧾 Program Menu
-![Main Menu](menu.png)
+![Main Menu](menu.PNG)
 
 📄 Bill Example
-![Bill](bill.png)
+![Bill](bill.PNG)
 
 📊 Sales Visualization
-![Visualization](visualization.png)
+![Visualization](visualization.PNG)
 
 🧩 Usage Flow
 When you run the program, you will see:
