@@ -48,15 +48,7 @@ Shows a bar chart of ordered items.
 ### Exit
 Closes the program.
 
-## Example Bill Output
-+-------------+----------+-----------+-----------+
-| Item Name   | Quantity | Price (₹) | Total (₹) |
-+-------------+----------+-----------+-----------+
-| Coffee      |    2     |     50    |     100   |
-| Sandwich    |    6     |    100    |     600   |
-| Cold Coffee |    5     |     90    |     450   |
-+-------------+----------+-----------+-----------+
-Total Amount: ₹1780
+
 
 ## Screenshots
 ![Main Menu](menu.png)
