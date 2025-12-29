@@ -1,80 +1,54 @@
-# ☕ Café Management System (Python CLI)
+# Café Management System (Python CLI)
 
-A clean, beginner-friendly **command-line Café Management System** built using Python.  
-Place orders, generate bills, save them, and visualize sales — all from the terminal.
+A lightweight command-line billing and sales tracking system for cafés.
+Place orders, generate itemized bills, save them, and visualize sales directly from the terminal.
 
----
+## Features
+- Interactive order placement
+- Input validation
+- Automatic billing with totals
+- Clean tabular bill output (PrettyTable)
+- Save bills to a text file
+- Sales visualization using Matplotlib
+- Simple object-oriented design
 
-## ✨ Features
+## Tech Stack
+- Python 3
+- PrettyTable
+- Matplotlib
 
-✔ Interactive ordering system  
-✔ Input validation  
-✔ Auto-calculated totals  
-✔ Beautiful bill formatting with **PrettyTable**  
-✔ Save bills to `cafe_bill.txt`  
-✔ Sales chart using **Matplotlib**  
-✔ Simple & readable OOP design  
-
----
-
-## 🧩 Technologies Used
-- **Python 3**
-- **PrettyTable**
-- **Matplotlib**
-
----
-
-## 📦 Install Dependencies
-
+## Installation
+Install dependencies:
 pip install prettytable matplotlib
 
-▶️ Run the Program
+## Run the Program
 python cafe_management.py
 
-🧾 Program Menu
-![Main Menu](menu.PNG)
-
-📄 Bill Example
-![Bill](bill.PNG)
-
-📊 Sales Visualization
-![Visualization](visualization.PNG)
-
-🧩 Usage Flow
-When you run the program, you will see:
-
-markdown
-Copy code
+## Menu Options
 1. Place Order
 2. Generate Bill
 3. Save Bill to File
 4. Visualize Sales
 5. Exit
-1️⃣ Place Order
-Enter:
 
-Item number
-
-Quantity
-
+### Place Order
+Enter item number and quantity.
 Enter 0 to stop ordering.
 
-2️⃣ Generate Bill
-Displays a formatted itemized bill with totals.
+### Generate Bill
+Displays a formatted bill with totals.
 
-3️⃣ Save Bill to File
-Creates:
-
-Copy code
+### Save Bill
+Creates a file:
 cafe_bill.txt
-4️⃣ Visualize Sales
-Displays a bar chart of ordered items.
 
-5️⃣ Exit
+### Visualize Sales
+Shows a bar chart of ordered items.
+
+### Exit
 Closes the program.
 
-mathematica
-Copy code
+## Example Bill Output
 +-------------+----------+-----------+-----------+
 | Item Name   | Quantity | Price (₹) | Total (₹) |
 +-------------+----------+-----------+-----------+
@@ -83,25 +57,26 @@ Copy code
 | Cold Coffee |    5     |    90     |    450    |
 +-------------+----------+-----------+-----------+
 Total Amount: ₹1780
-⚠ Limitations
-Orders reset each run
 
-Menu is static
+## Screenshots
+![Main Menu](menu.png)
+![Bill Example](bill.png)
+![Sales Visualization](visualization.png)
 
-No database storage
+## Limitations
+- No persistent storage
+- Static menu
+- Orders reset each run
+- CLI interface only
+- Single-user session
 
-CLI based
+## Planned Enhancements
+- GST / discounts
+- Edit or remove items from orders
+- Customer details
+- CSV / Database storage
+- GUI or Web interface
 
-🚀 Future Enhancements
-GST / discounts
-
-Remove / edit orders
-
-Customer info
-
-Persistent storage (CSV / DB)
-
-GUI / Web version
-
-📄 License
+## License
+MIT License
 Free to use and modify.
